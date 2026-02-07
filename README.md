@@ -1,1 +1,1 @@
-![Metrics](https://metrics.lecoq.io/chuzouX)
+![Metrics](/github-metrics.svg)
