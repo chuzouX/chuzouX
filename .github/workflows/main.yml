@@ -66,10 +66,6 @@ jobs:
           plugin_screenshot_selector: body
           plugin_screenshot_title: My Blog
           plugin_screenshot_url: https://chuzoux.top
-          plugin_screenshot_viewport: {
-  "width": 1280,
-  "height": 1280
-}
-
+          plugin_screenshot_viewport: {"width": 1280,"height": 1280}
           plugin_stars: yes
           plugin_stars_limit: 4
