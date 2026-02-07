@@ -49,16 +49,6 @@ jobs:
           plugin_rss: yes
           plugin_rss_limit: 4
           plugin_rss_source: https://chuzoux.top/rss.xml
-          plugin_screenshot: yes
-          plugin_screenshot_background: yes
-          plugin_screenshot_mode: image
-          plugin_screenshot_selector: body
-          plugin_screenshot_title: My Blog
-          plugin_screenshot_url: https://chuzoux.top
-          plugin_screenshot_viewport: {
-  "width": 1280,
-  "height": 1280
-}
 
           plugin_stars: yes
           plugin_stars_limit: 4
