@@ -17,8 +17,6 @@ jobs:
           # Your GitHub token
           # The following scopes are required:
           #  - public_access (default scope)
-          #  - public_repo
-          #  - read:project
           # The following additional scopes may be required:
           #  - read:org      (for organization related metrics)
           #  - read:user     (for user related data)
@@ -31,13 +29,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 0%
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
@@ -55,10 +46,19 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          plugin_projects: yes
-          plugin_projects_limit: 4
           plugin_rss: yes
           plugin_rss_limit: 4
           plugin_rss_source: https://chuzoux.top/rss.xml
+          plugin_screenshot: yes
+          plugin_screenshot_background: yes
+          plugin_screenshot_mode: image
+          plugin_screenshot_selector: body
+          plugin_screenshot_title: My Blog
+          plugin_screenshot_url: https://chuzoux.top
+          plugin_screenshot_viewport: {
+  "width": 1280,
+  "height": 1280
+}
+
           plugin_stars: yes
           plugin_stars_limit: 4
